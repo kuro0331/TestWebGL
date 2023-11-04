@@ -12,6 +12,8 @@
     <type fullname="TankProject.UI.Common.LobbyMenuBtn" preserve="all" />
     <type fullname="TankProject.UI.Common.TextBtn" preserve="all" />
     <type fullname="TankProject.UI.Event.UIScrollHandler" preserve="all" />
+    <type fullname="TankProject.WebGLTest.Screen.LobbyScreen" preserve="all" />
+    <type fullname="TankProject.WebGLTest.Screen.StartScreen" preserve="all" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />

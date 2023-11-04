@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Git.loader.js";
+      var loaderUrl = buildUrl + "/TestWebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Git.data",
-        frameworkUrl: buildUrl + "/Git.framework.js",
-        codeUrl: buildUrl + "/Git.wasm",
+        dataUrl: buildUrl + "/TestWebGL.data",
+        frameworkUrl: buildUrl + "/TestWebGL.framework.js",
+        codeUrl: buildUrl + "/TestWebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "TankProject",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Git.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/TestWebGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
