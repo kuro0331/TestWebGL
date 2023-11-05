@@ -13,12 +13,15 @@
     <type fullname="TankProject.UI.Common.TextBtn" preserve="all" />
     <type fullname="TankProject.UI.Event.UIScrollHandler" preserve="all" />
     <type fullname="TankProject.WebGLTest.Components.MyToast2" preserve="all" />
-    <type fullname="TankProject.WebGLTest.Screen.BattleScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.Screen.LobbyScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.Screen.SettingsScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.Screen.StartScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.Screen.TankSelectScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.Screen.WorldMapScreen" preserve="all" />
+    <type fullname="TankProject.WebGLTest.Components.SceneCanvas" preserve="all" />
+    <type fullname="TankProject.WebGLTest.MScreen.BattleScreen" preserve="all" />
+    <type fullname="TankProject.WebGLTest.MScreen.LobbyScreen" preserve="all" />
+    <type fullname="TankProject.WebGLTest.MScreen.SettingsScreen" preserve="all" />
+    <type fullname="TankProject.WebGLTest.MScreen.StartScreen" preserve="all" />
+    <type fullname="TankProject.WebGLTest.MScreen.TankSelectScreen" preserve="all" />
+    <type fullname="TankProject.WebGLTest.MScreen.TestWebGLScene" preserve="all" />
+    <type fullname="TankProject.WebGLTest.MScreen.WebGLManager" preserve="all" />
+    <type fullname="TankProject.WebGLTest.MScreen.WorldMapScreen" preserve="all" />
     <type fullname="TankProject.Settings.Version" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -36,6 +39,7 @@
     <type fullname="Kamane.Components.SceneCamera" preserve="all" />
     <type fullname="Kamane.Events.UI.UIOnClickHandler" preserve="all" />
     <type fullname="Kamane.UI.Animation.BlinkUI" preserve="all" />
+    <type fullname="Kamane.UI.Animation.RotateUI" preserve="all" />
     <type fullname="Kamane.UI.Joystick.FloatingBaseJoystick" preserve="all" />
     <type fullname="Kamane.Utilities.MyToast" preserve="all" />
   </assembly>
@@ -57,6 +61,7 @@
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
@@ -66,7 +71,6 @@
     <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
@@ -94,6 +98,14 @@
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Terrain" preserve="all" />
+    <type fullname="UnityEngine.TerrainData" preserve="all" />
+    <type fullname="UnityEngine.TerrainLayer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.TerrainCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
