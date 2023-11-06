@@ -1,9 +1,12 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="SimpleMusicPlayer" preserve="all" />
+    <type fullname="TankProject.Base.Ddol" preserve="all" />
+    <type fullname="TankProject.Base.ScreenCanvas" preserve="all" />
+    <type fullname="TankProject.Scene.Loading.FadeBlackScene" preserve="all" />
     <type fullname="TankProject.Scene.LobbyScene" preserve="all" />
     <type fullname="TankProject.Scene.SettingsScene" preserve="all" />
-    <type fullname="TankProject.Scene.StartScene" preserve="all" />
+    <type fullname="TankProject.Scene.TankSelectScene" preserve="all" />
     <type fullname="TankProject.Scene.WorldMapScene" preserve="all" />
     <type fullname="TankProject.Settings.GameSettings" preserve="all" />
     <type fullname="TankProject.Tank.TankSO" preserve="all" />
@@ -12,17 +15,6 @@
     <type fullname="TankProject.UI.Common.LobbyMenuBtn" preserve="all" />
     <type fullname="TankProject.UI.Common.TextBtn" preserve="all" />
     <type fullname="TankProject.UI.Event.UIScrollHandler" preserve="all" />
-    <type fullname="TankProject.WebGLTest.Components.MyToast2" preserve="all" />
-    <type fullname="TankProject.WebGLTest.Components.SceneCanvas" preserve="all" />
-    <type fullname="TankProject.WebGLTest.MScreen.BattleScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.MScreen.LobbyScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.MScreen.SettingsScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.MScreen.StartScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.MScreen.TankSelectScreen" preserve="all" />
-    <type fullname="TankProject.WebGLTest.MScreen.TestWebGLScene" preserve="all" />
-    <type fullname="TankProject.WebGLTest.MScreen.WebGLManager" preserve="all" />
-    <type fullname="TankProject.WebGLTest.MScreen.WorldMapScreen" preserve="all" />
-    <type fullname="TankProject.Settings.Version" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
@@ -38,10 +30,9 @@
   <assembly fullname="KamaneLibrary, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Kamane.Components.SceneCamera" preserve="all" />
     <type fullname="Kamane.Events.UI.UIOnClickHandler" preserve="all" />
-    <type fullname="Kamane.UI.Animation.BlinkUI" preserve="all" />
     <type fullname="Kamane.UI.Animation.RotateUI" preserve="all" />
-    <type fullname="Kamane.UI.Joystick.FloatingBaseJoystick" preserve="all" />
     <type fullname="Kamane.Utilities.MyToast" preserve="all" />
+    <type fullname="Kamane.Base.Version" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -87,6 +78,7 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
