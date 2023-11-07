@@ -32,6 +32,7 @@
   <assembly fullname="KamaneLibrary, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Kamane.Components.SceneCamera" preserve="all" />
     <type fullname="Kamane.Events.UI.UIOnClickHandler" preserve="all" />
+    <type fullname="Kamane.Events.UI.UIOnTouchListener" preserve="all" />
     <type fullname="Kamane.UI.Animation.RotateUI" preserve="all" />
     <type fullname="Kamane.UI.Joystick.FloatingBaseJoystick" preserve="all" />
     <type fullname="Kamane.Utilities.MyToast" preserve="all" />
