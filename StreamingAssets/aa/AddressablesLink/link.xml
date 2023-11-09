@@ -1,5 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Battle.BattleStage" preserve="all" />
     <type fullname="TankProject.Base.Ddol" preserve="all" />
     <type fullname="TankProject.Base.ScreenCanvas" preserve="all" />
     <type fullname="TankProject.Scene.BattleScene" preserve="all" />
