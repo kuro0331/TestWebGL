@@ -10,6 +10,7 @@
     <type fullname="TankProject.Scene.TankSelectScene" preserve="all" />
     <type fullname="TankProject.Scene.WorldMapScene" preserve="all" />
     <type fullname="TankProject.Settings.GameSettings" preserve="all" />
+    <type fullname="TankProject.Tank.MK1.Mk1NormalSkill" preserve="all" />
     <type fullname="TankProject.Tank.MoveOnTriggerEnter" preserve="all" />
     <type fullname="TankProject.Tank.TankMovement" preserve="all" />
     <type fullname="TankProject.Tank.TankSO" preserve="all" />
