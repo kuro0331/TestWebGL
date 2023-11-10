@@ -1,8 +1,9 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Battle.BattleStage" preserve="all" />
     <type fullname="TankProject.Base.Ddol" preserve="all" />
     <type fullname="TankProject.Base.ScreenCanvas" preserve="all" />
+    <type fullname="TankProject.Battle.BattleStage" preserve="all" />
+    <type fullname="TankProject.Battle.MoveOnTriggerEnter" preserve="all" />
     <type fullname="TankProject.Scene.BattleScene" preserve="all" />
     <type fullname="TankProject.Scene.Loading.FadeBlackScene" preserve="all" />
     <type fullname="TankProject.Scene.LobbyScene" preserve="all" />
@@ -10,15 +11,16 @@
     <type fullname="TankProject.Scene.TankSelectScene" preserve="all" />
     <type fullname="TankProject.Scene.WorldMapScene" preserve="all" />
     <type fullname="TankProject.Settings.GameSettings" preserve="all" />
-    <type fullname="TankProject.Tank.MK1.Mk1NormalSkill" preserve="all" />
-    <type fullname="TankProject.Tank.MoveOnTriggerEnter" preserve="all" />
-    <type fullname="TankProject.Tank.TankMovement" preserve="all" />
-    <type fullname="TankProject.Tank.TankSO" preserve="all" />
-    <type fullname="TankProject.Tank.TestRotate" preserve="all" />
+    <type fullname="TankProject.Tank.Base.TankMovement" preserve="all" />
+    <type fullname="TankProject.Tank.Base.TankSO" preserve="all" />
+    <type fullname="TankProject.Tank.Base.TestRotate" preserve="all" />
+    <type fullname="TankProject.Tank.MK1.Mk1Skill" preserve="all" />
+    <type fullname="TankProject.TestSpline" preserve="all" />
     <type fullname="TankProject.UI.Animation.MaterialOffsetFlow" preserve="all" />
     <type fullname="TankProject.UI.Common.LobbyMenuBtn" preserve="all" />
     <type fullname="TankProject.UI.Common.TextBtn" preserve="all" />
     <type fullname="TankProject.UI.Event.UIScrollHandler" preserve="all" />
+    <type fullname="TankProject.UI.SkillButton" preserve="all" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
@@ -37,7 +39,8 @@
     <type fullname="Kamane.Events.UI.UIOnClickHandler" preserve="all" />
     <type fullname="Kamane.Events.UI.UIOnTouchListener" preserve="all" />
     <type fullname="Kamane.UI.Animation.RotateUI" preserve="all" />
-    <type fullname="Kamane.UI.Joystick.FloatingBaseJoystick" preserve="all" />
+    <type fullname="Kamane.UI.Joystick.FloatingJoystick" preserve="all" />
+    <type fullname="Kamane.Utilities.CurvesLineRenderer" preserve="all" />
     <type fullname="Kamane.Utilities.MyToast" preserve="all" />
     <type fullname="Kamane.Base.Version" preserve="nothing" serialized="true" />
   </assembly>
@@ -45,6 +48,7 @@
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.DecalProjector" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
@@ -55,6 +59,19 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Splines, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Splines.SplineAnimate" preserve="all" />
+    <type fullname="UnityEngine.Splines.SplineContainer" preserve="all" />
+    <type fullname="UnityEngine.Splines.BezierKnot" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.DistanceToInterpolation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.KnotLinkCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.Spline" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.Spline/MetaData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.SplineDataDictionary`1[System.Int32]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.SplineDataDictionary`1[System.Single]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.SplineDataDictionary`1[Unity.Mathematics.float4]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Splines.SplineDataDictionary`1[UnityEngine.Object]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
@@ -121,6 +138,11 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Mathematics">
+    <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.float4" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.quaternion" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
