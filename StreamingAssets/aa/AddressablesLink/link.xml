@@ -14,8 +14,9 @@
     <type fullname="TankProject.Tank.Base.TankMovement" preserve="all" />
     <type fullname="TankProject.Tank.Base.TankSO" preserve="all" />
     <type fullname="TankProject.Tank.Base.TestRotate" preserve="all" />
-    <type fullname="TankProject.Tank.MK1.Mk1Skill" preserve="all" />
-    <type fullname="TankProject.TestSpline" preserve="all" />
+    <type fullname="TankProject.Tank.MK1.Mk1Skill1" preserve="all" />
+    <type fullname="TankProject.Tank.MK1.Mk1Skill2" preserve="all" />
+    <type fullname="TankProject.Tank.MK1.Mk1Skill3" preserve="all" />
     <type fullname="TankProject.UI.Animation.MaterialOffsetFlow" preserve="all" />
     <type fullname="TankProject.UI.Common.LobbyMenuBtn" preserve="all" />
     <type fullname="TankProject.UI.Common.TextBtn" preserve="all" />
@@ -59,18 +60,6 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.Splines, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Splines.SplineContainer" preserve="all" />
-    <type fullname="UnityEngine.Splines.BezierKnot" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.DistanceToInterpolation" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.KnotLinkCollection" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.Spline" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.Spline/MetaData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.SplineDataDictionary`1[System.Int32]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.SplineDataDictionary`1[System.Single]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.SplineDataDictionary`1[Unity.Mathematics.float4]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Splines.SplineDataDictionary`1[UnityEngine.Object]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
@@ -137,11 +126,6 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.Mathematics">
-    <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Mathematics.float4" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Mathematics.quaternion" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
