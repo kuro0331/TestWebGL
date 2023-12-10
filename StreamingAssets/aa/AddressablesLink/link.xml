@@ -1,34 +1,37 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="TankProject.Base.Ddol" preserve="all" />
     <type fullname="TankProject.Base.ScreenCanvas" preserve="all" />
     <type fullname="TankProject.Battle.BattleStage" preserve="all" />
-    <type fullname="TankProject.Battle.MoveOnTriggerEnter" preserve="all" />
-    <type fullname="TankProject.DebugSlider" preserve="all" />
+    <type fullname="TankProject.Battle.BulletObject" preserve="all" />
+    <type fullname="TankProject.Battle.HealthBar" preserve="all" />
+    <type fullname="TankProject.Battle.LimitPositionCinemachineExtension" preserve="all" />
+    <type fullname="TankProject.LoadingAnimation" preserve="all" />
     <type fullname="TankProject.Scene.BattleScene" preserve="all" />
+    <type fullname="TankProject.Scene.DealerScene" preserve="all" />
     <type fullname="TankProject.Scene.Loading.FadeBlackScene" preserve="all" />
     <type fullname="TankProject.Scene.LobbyScene" preserve="all" />
     <type fullname="TankProject.Scene.SettingsScene" preserve="all" />
     <type fullname="TankProject.Scene.TankSelectScene" preserve="all" />
     <type fullname="TankProject.Scene.WorldMapScene" preserve="all" />
-    <type fullname="TankProject.Settings.GameSettings" preserve="all" />
     <type fullname="TankProject.Tank.Base.TankMovement" preserve="all" />
     <type fullname="TankProject.Tank.Base.TankSO" preserve="all" />
     <type fullname="TankProject.Tank.Base.TestRotate" preserve="all" />
-    <type fullname="TankProject.Tank.MK1.Mk1Skill1" preserve="all" />
-    <type fullname="TankProject.Tank.MK1.Mk1Skill2" preserve="all" />
-    <type fullname="TankProject.Tank.MK1.Mk1Skill3" preserve="all" />
-    <type fullname="TankProject.UI.Animation.MaterialOffsetFlow" preserve="all" />
+    <type fullname="TankProject.tank.MK1.Mk1Skill0" preserve="all" />
+    <type fullname="TankProject.tank.MK1.Mk1Skill1" preserve="all" />
+    <type fullname="TankProject.tank.MK1.Mk1Skill2" preserve="all" />
+    <type fullname="TankProject.tank.MK1.Mk1Skill3" preserve="all" />
+    <type fullname="TankProject.tank.TankModel" preserve="all" />
     <type fullname="TankProject.UI.Common.LobbyMenuBtn" preserve="all" />
+    <type fullname="TankProject.UI.Common.StageSelectBtn" preserve="all" />
     <type fullname="TankProject.UI.Common.TextBtn" preserve="all" />
     <type fullname="TankProject.UI.Event.UIScrollHandler" preserve="all" />
     <type fullname="TankProject.UI.SkillButton" preserve="all" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
+    <type fullname="Cinemachine.CinemachineComposer" preserve="all" />
     <type fullname="Cinemachine.CinemachineFramingTransposer" preserve="all" />
     <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
-    <type fullname="Cinemachine.CinemachineTransposer" preserve="all" />
     <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
     <type fullname="Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.CinemachineBrain/BrainEvent" preserve="nothing" serialized="true" />
@@ -37,17 +40,21 @@
     <type fullname="Cinemachine.LensSettings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="KamaneLibrary, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Kamane.Base.GameSettings" preserve="all" />
     <type fullname="Kamane.Components.SceneCamera" preserve="all" />
-    <type fullname="Kamane.Events.UI.UIOnClickHandler" preserve="all" />
-    <type fullname="Kamane.Events.UI.UIOnTouchListener" preserve="all" />
-    <type fullname="Kamane.UI.Animation.RotateUI" preserve="all" />
+    <type fullname="Kamane.Events.UI.SceneUIOnClickHandler" preserve="all" />
     <type fullname="Kamane.UI.Joystick.FloatingJoystick" preserve="all" />
-    <type fullname="Kamane.Utilities.CurvesLineRenderer" preserve="all" />
+    <type fullname="Kamane.Utilities.DebugArrow" preserve="all" />
+    <type fullname="Kamane.Utilities.DebugSlider" preserve="all" />
     <type fullname="Kamane.Utilities.MyToast" preserve="all" />
+    <type fullname="Kamane.Utilities.ObjectsPara" preserve="all" />
     <type fullname="Kamane.Base.Version" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.AI.Navigation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.AI.Navigation.NavMeshSurface" preserve="all" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.DecalProjector" preserve="all" />
@@ -76,12 +83,18 @@
     <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioListener" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
-    <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
@@ -89,6 +102,7 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
@@ -100,30 +114,34 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
-    <type fullname="UnityEngine.MeshCollider" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
-    <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
-    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
